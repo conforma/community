@@ -14,9 +14,6 @@ All git repositories within the organization must meet the following requirement
    documentation.
 1. Setup execution of [OpenSSF Scorecard](https://github.com/ossf/scorecard), see
    [example](https://github.com/enterprise-contract/ec-cli/blob/main/.github/workflows/scorecard.yml).
-1. Setup execution of
-   [dependency-review-action](https://github.com/actions/dependency-review-action), see
-   [example](https://github.com/enterprise-contract/ec-cli/blob/main/.github/workflows/dependency-review.yml).
 1. Setup automatic dependency updates with either
    [dependabot](https://docs.github.com/en/code-security/dependabot) or
    [renovatebot](https://docs.renovatebot.com/). Depending on the technology stack in the
@@ -31,6 +28,10 @@ All git repositories within the organization must meet the following requirement
    an individual.
 
 The [.github](https://github.com/enterprise-contract/.github) repository contains common files that
-apply to all repositories within the organiation, i.e. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and
-`SECURITY.md`. These should be excluded from other repositories unless there is a strong reason to
-overwrite those policies for a particular repository.
+apply to all repositories within the organization, i.e. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`,
+and `SECURITY.md`. These should be excluded from other repositories unless there is a strong reason
+to overwrite those policies for a particular repository.
+
+The [.github](https://github.com/enterprise-contract/.github) repository also defines required
+workflows across all the repositories in the organization.
+
