@@ -1,7 +1,7 @@
-# EC's roadmap
-This document outlines the Enterprise Contract's roadmap, articulated through its mission, vision, and goals. 
+# Conforma's roadmap
+This document outlines the Conforma's roadmap, articulated through its mission, vision, and goals. 
 
-## EC's mission
+## Conforma's mission
 Be the standard product used to verify supply chain artifacts, and enforce policies about how they were built and tested, in a manageable, scalable, and declarative way.
 
 ### Defining features
@@ -13,7 +13,7 @@ Be the standard product used to verify supply chain artifacts, and enforce polic
 * Used to verify any config, notably attestations, VSAs (in the future).
 
 
-## EC's vision
+## Conforma's vision
 ### From a user’s perspective:
 * To provide a mechanism for verifying an artifact was built by a system that meets a certain standard.
 * Be able to apply multiple policies to an artifact.
