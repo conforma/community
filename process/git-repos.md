@@ -1,7 +1,7 @@
 # Git Repositories
 
-The [Enterprise Contract](https://github.com/enterprise-contract) GitHub organization hosts all the
-git repositories that make up the Enterprise Contract ecosystem. This document describes the
+The [Conforma](https://github.com/conforma) GitHub organization hosts all the
+git repositories that make up the Conforma ecosystem. This document describes the
 managing processes for these git repositories.
 
 ## Repository Requirements
@@ -24,14 +24,14 @@ All git repositories within the organization must meet the following requirement
    example.
 1. Setup branch protection for the default branch, usually `main`. At a bare minimum "require a pull
    request before merging."
-1. Access must be granted to a [team](https://github.com/orgs/enterprise-contract/teams), not to
+1. Access must be granted to a [team](https://github.com/orgs/conforma/teams), not to
    an individual.
 
-The [.github](https://github.com/enterprise-contract/.github) repository contains common files that
+The [.github](https://github.com/conforma/.github) repository contains common files that
 apply to all repositories within the organization, i.e. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`,
 and `SECURITY.md`. These should be excluded from other repositories unless there is a strong reason
 to overwrite those policies for a particular repository.
 
-The [.github](https://github.com/enterprise-contract/.github) repository also defines required
+The [.github](https://github.com/conforma/.github) repository also defines required
 workflows across all the repositories in the organization.
 
