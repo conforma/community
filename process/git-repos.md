@@ -20,7 +20,7 @@ All git repositories within the organization must meet the following requirement
    repository, both of these may be needed. See
    [dependabot](https://github.com/enterprise-contract/ec-policies/blob/main/.github/dependabot.yml)
    example and
-   [renovatebot](https://github.com/enterprise-contract/golden-container/blob/main/renovate.json)
+   [renovatebot](https://github.com/conforma/golden-container/blob/main/renovate.json)
    example.
 1. Setup branch protection for the default branch, usually `main`. At a bare minimum "require a pull
    request before merging."
