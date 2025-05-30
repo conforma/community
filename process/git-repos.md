@@ -18,7 +18,7 @@ All git repositories within the organization must meet the following requirement
    [dependabot](https://docs.github.com/en/code-security/dependabot) or
    [renovatebot](https://docs.renovatebot.com/). Depending on the technology stack in the
    repository, both of these may be needed. See
-   [dependabot](https://github.com/enterprise-contract/ec-policies/blob/main/.github/dependabot.yml)
+   [dependabot](https://github.com/conforma/policy/blob/main/.github/dependabot.yml)
    example and
    [renovatebot](https://github.com/conforma/golden-container/blob/main/renovate.json)
    example.
