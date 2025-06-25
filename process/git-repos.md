@@ -13,7 +13,7 @@ All git repositories within the organization must meet the following requirement
 1. Include a `README.md` that introduces the repository and, if needed, references additional
    documentation.
 1. Setup execution of [OpenSSF Scorecard](https://github.com/ossf/scorecard), see
-   [example](https://github.com/enterprise-contract/ec-cli/blob/main/.github/workflows/scorecard.yml).
+   [example](https://github.com/conforma/cli/blob/main/.github/workflows/scorecard.yml).
 1. Setup automatic dependency updates with either
    [dependabot](https://docs.github.com/en/code-security/dependabot) or
    [renovatebot](https://docs.renovatebot.com/). Depending on the technology stack in the
