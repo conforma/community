@@ -14,14 +14,8 @@ All git repositories within the organization must meet the following requirement
    documentation.
 1. Setup execution of [OpenSSF Scorecard](https://github.com/ossf/scorecard), see
    [example](https://github.com/conforma/cli/blob/main/.github/workflows/scorecard.yml).
-1. Setup automatic dependency updates with either
-   [dependabot](https://docs.github.com/en/code-security/dependabot) or
-   [renovatebot](https://docs.renovatebot.com/). Depending on the technology stack in the
-   repository, both of these may be needed. See
-   [dependabot](https://github.com/conforma/policy/blob/main/.github/dependabot.yml)
-   example and
-   [renovatebot](https://github.com/conforma/golden-container/blob/main/renovate.json)
-   example.
+1. Setup automatic dependency updates with [renovatebot](https://docs.renovatebot.com/). See
+   [renovatebot](https://github.com/conforma/cli/blob/main/renovate.json) example.
 1. Setup branch protection for the default branch, usually `main`. At a bare minimum "require a pull
    request before merging."
 1. Access must be granted to a [team](https://github.com/orgs/conforma/teams), not to
